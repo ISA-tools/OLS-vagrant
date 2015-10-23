@@ -1,0 +1,5 @@
+Don't forget
+* Set neo4j settings (whereis neo4j)
+* Change Jetty port for solr (so it doesn't clash with tomcat7)
+
+

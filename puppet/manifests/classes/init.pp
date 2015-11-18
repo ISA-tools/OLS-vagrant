@@ -1,8 +1,8 @@
 class init {
 
-    #group { "puppet":
-    #    ensure => "present",
-    #}
+    group { "puppet":
+        ensure => "present",
+    }
 
     # Update the system
     exec { "update-apt":

@@ -11,8 +11,9 @@ class init {
 
     # Install the first set of dependencies from apt
     package {
-        ["mongodb", "maven", "solr-jetty", "tomcat7", "git"]:
+        ["mongodb", "maven", "git", "curl", "tar", "bash", "solr-jetty"]:
         ensure => installed,
         require => Exec['update-apt'] # The system update needs to run first
     }
+
 }

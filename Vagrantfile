@@ -12,7 +12,7 @@ Vagrant.configure(2) do |ols|
 
   # Check how much memory we need
   ols.vm.provider :virtualbox do |v|
-    v.customize ["modifyvm", :id, "--memory", 2048]
+    v.customize ["modifyvm", :id, "--memory", 4096]
   end
   ols.vm.provision "fix-no-tty", type: "shell" do |s|
     s.privileged = false

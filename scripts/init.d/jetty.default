@@ -1,9 +1,0 @@
-# Defaults for jetty see /etc/init.d/jetty for more
-JETTY_HOST=0.0.0.0
-NO_START=0
-VERBOSE=yes
-#JETTY_PORT=8080
-#JETTY_ARGS=
-#JSP_COMPILER=jikes
-#JETTY_TMP=/var/cache/jetty
-#JETTY_START_CONFIG=/etc/jetty/start.config
